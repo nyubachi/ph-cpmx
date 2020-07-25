@@ -1,12 +1,10 @@
 # 薬物動態学
 
 書籍[「第4版 臨床薬物動態学」](https://www.amazon.co.jp/gp/product/4621304038/ref=as_li_tl?ie=UTF8&tag=zennichiyaku-22&camp=247&creative=1211&linkCode=as2&creativeASIN=4621304038&linkId=d15fcfc6e9ff9c695748d875d3e69358)を参考文献として、薬物動態およびPKPD関連のあれこれをR言語とともに考えてみる。対象薬はPKPD分野で馴染み深いレボフロキサシンとした。  
-間違ったことを記載している可能性がありますので御注意ください。  
- 
 
 ## 対象薬：レボフロキサシン
 ### 薬物動態パラメータ
-薬物動態パラメータは、[臨床薬物動態情報局](https://sites.google.com/site/pharmacokineticinformation/)のデータを利用させていただきました。ありがたい。   
+薬物動態パラメータは、[臨床薬物動態情報局](https://sites.google.com/site/pharmacokineticinformation/)のデータを利用させていただきました。  
 ```{r}
 F <- 0.98  # バイオアベイラビリティ
 Ae <- 0.939  # 尿中未変化体薬物排泄率

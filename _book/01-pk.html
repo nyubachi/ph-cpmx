@@ -180,13 +180,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="薬物動態学" class="section level1" number="1">
 <h1><span class="header-section-number">Chapter 1</span> 薬物動態学</h1>
-<p>書籍<a href="https://www.amazon.co.jp/gp/product/4621304038/ref=as_li_tl?ie=UTF8&amp;tag=zennichiyaku-22&amp;camp=247&amp;creative=1211&amp;linkCode=as2&amp;creativeASIN=4621304038&amp;linkId=d15fcfc6e9ff9c695748d875d3e69358">「第4版 臨床薬物動態学」</a>を参考文献として、薬物動態およびPKPD関連のあれこれをR言語とともに考えてみる。対象薬はPKPD分野で馴染み深いレボフロキサシンとした。<br />
-間違ったことを記載している可能性がありますので御注意ください。</p>
+<p>書籍<a href="https://www.amazon.co.jp/gp/product/4621304038/ref=as_li_tl?ie=UTF8&amp;tag=zennichiyaku-22&amp;camp=247&amp;creative=1211&amp;linkCode=as2&amp;creativeASIN=4621304038&amp;linkId=d15fcfc6e9ff9c695748d875d3e69358">「第4版 臨床薬物動態学」</a>を参考文献として、薬物動態およびPKPD関連のあれこれをR言語とともに考えてみる。対象薬はPKPD分野で馴染み深いレボフロキサシンとした。</p>
 <div id="対象薬レボフロキサシン" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> 対象薬：レボフロキサシン</h2>
 <div id="薬物動態パラメータ" class="section level3" number="1.1.1">
 <h3><span class="header-section-number">1.1.1</span> 薬物動態パラメータ</h3>
-<p>薬物動態パラメータは、<a href="https://sites.google.com/site/pharmacokineticinformation/">臨床薬物動態情報局</a>のデータを利用させていただきました。ありがたい。</p>
+<p>薬物動態パラメータは、<a href="https://sites.google.com/site/pharmacokineticinformation/">臨床薬物動態情報局</a>のデータを利用させていただきました。</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="01-pk.html#cb1-1"></a>F &lt;-<span class="st"> </span><span class="fl">0.98</span>  <span class="co"># バイオアベイラビリティ</span></span>
 <span id="cb1-2"><a href="01-pk.html#cb1-2"></a>Ae &lt;-<span class="st"> </span><span class="fl">0.939</span>  <span class="co"># 尿中未変化体薬物排泄率</span></span>
 <span id="cb1-3"><a href="01-pk.html#cb1-3"></a>CLtot &lt;-<span class="st"> </span><span class="fl">161.5</span>  <span class="co"># クリアランス（mL/min）</span></span>
