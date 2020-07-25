@@ -1,0 +1,28 @@
+--- 
+title: "薬剤師とファーマコメトリクス"
+author: "nyubachi"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apalike
+link-citations: yes
+description: 
+favicon: "favicon.ico"
+output:
+  bookdown::gitbook:
+    split_by: rmd
+---
+
+### このサイトは？ {-}
+
+臨床ファーマコメトリクスを模索する薬剤師（[\@nyubachi](https://twitter.com/nyubachi)）のメモ書きです。  
+常に書きかけの状態で、内容には誤りが含まれる可能性があります。御注意下さい。  
+
+#### リンク {-}
+
+- [Twitter](https://twitter.com/nyubachi) あまりつぶやいていません。
+- [pharmaToolz](https://pharmatoolz.me) 自作の薬剤師向けウェブアプリです。
+
