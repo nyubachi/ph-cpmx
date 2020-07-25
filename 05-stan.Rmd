@@ -1,0 +1,5 @@
+# Stan関連
+
+## 簡単な例
+
+https://mpopov.com/blog/2020/05/22/rstan-ode/ を参考にStanで簡単なパラメータ推定をしてみる。  
